@@ -1,0 +1,20 @@
+.letter-style{
+    letter-spacing: 1px;
+    font-family: Segoe UI;
+}
+
+.nav-options{
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(to right, #0072FF,#007DFF 41% ,#00C6FF 76%);
+    border-image-slice: 1;
+}
+
+.nav-options:active::after{
+content: '';
+display: block;
+height: 4px;
+font-family: 'Segoe UI';
+font-weight: normal;
+color: #0072FF;
+/* background: linear-gradient(130deg, #0072FF, #007DFF 41%, #00C6FF 76%); */
+}
